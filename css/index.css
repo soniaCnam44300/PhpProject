@@ -1,0 +1,33 @@
+#jumbotron{
+    background-image: url("https://www.lindigo-mag.com/photo/art/default/5463556-8151752.jpg?v=1367270241");
+}
+
+.container{
+    background-color: white;
+}
+
+.connecter{
+    position: absolute;
+    float: right;
+    left: 60%;
+}
+
+.mofid_btn{
+    height: 250px;
+}
+
+
+#nav{
+    margin-top: 20px;
+}
+
+#ToogleNantes{
+    border: none;
+    background-color: none;
+}
+
+#connexion{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+

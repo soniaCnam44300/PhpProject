@@ -1,0 +1,368 @@
+
+#container{
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+    margin: 0em auto;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://www.levoyageanantes.fr/wp-content/uploads/2015/12/HB-Philippe-Ramette-Eloge-du-pas-de-cote-Nantes-Le-Voyage-a-Nantes-2018-©-Martin-Argyroglo-_-LVAN-ADAGP-Paris-2018-2.jpg);
+}
+h1{text-align: center;
+font-size: 2.5rem;}
+
+
+#img{
+    position: relative;
+    top: 4%;
+    left: -42%;
+    height: 200px;
+ }
+
+.titre1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "museo-sans-condensed",sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    display: inline;
+    border-bottom: 10px solid  white;
+    border-bottom-color: white;
+    text-transform: uppercase;
+}
+
+ /* TEASER PARFUM */
+
+ .teaser_parfum{
+    font-family: "museo-sans-condensed",sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem ;
+    color: white;
+    font-weight: bold;
+
+ 
+   }
+
+
+        /* ECRAN DU CLAVIER*/
+
+#form2{
+    position: absolute;
+    padding-top: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    display: inline-block;
+    width: 100%;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate( -50%); /* décalage de 50% de sa propre taille */
+
+    border-top: 1 px solid #777;
+    border-radius: 6px;
+
+        }
+        #ecran{
+            text-align: center;
+            background-color: white;
+            border: none;
+            color: black;
+            font-size: 20px;
+            padding: 16px;
+            width: 300px;
+            border-radius: 6px;
+            border-bottom: 1px solid #777;
+            box-shadow: inset 0 0 5px 1px rgb(0,0,0);
+            }
+
+        #ecran2{
+            text-align: center;
+            background-color: white;
+            border: none;
+            color: black;
+            font-size: 20px;
+            padding: 16px;
+            width: 300px;
+            border-radius: 6px;
+            border-bottom: 1px solid #777;
+            box-shadow: inset 0 0 5px 1px rgb(0,0,0);
+                }
+
+        #ecran3{
+            text-align: center;
+            background-color: white;
+            border: none;
+            color: black;
+            font-size: 20px;
+            padding: 16px;
+            width: 300px;
+            border-radius: 6px;
+            border-bottom: 1px solid #777;
+            box-shadow: inset 0 0 5px 1px rgb(0,0,0);
+                }
+    
+
+#clavier{
+    position: absolute;
+    top: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: rgb(103, 107, 104);
+    border: 1px solid #3d3d3d;
+    width: 80%;
+    box-shadow: 0 7px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate( -50%); /* décalage de 50% de sa propre taille */
+   
+        }
+
+
+#body{
+    padding: 0 1%;
+    padding-top: 10px;
+    width: 60%;
+    top:10%;
+    float: left;
+    
+  
+
+    }
+    #body div {
+       
+        cursor: default;
+        padding: 7px 20px;
+        font-size: 120%;
+        text-shadow: 0 -1px 1px #0000;
+        display: inline-block;
+        border-top: solid 2px #7777;
+        width: 7%;
+        background: linear-gradient(#5f5f5f 0%, #404040 100%);
+        margin: 3px;
+        border-radius: 6px;
+                }
+
+            #body div:hover{
+                background: linear-gradient(#79d144 0%, #50a61f 100%);
+                border-top: solid 1 px #9add73;
+                text-shadow: 0 -1px 1px #0000;
+                            }
+
+            #body div:active{
+                border-top: none;
+                            }
+
+
+/* CLAVIER NUMÉRIQUE */
+
+#claviernum{
+    float: right;
+    padding: 10px 10px 10px;
+    padding-top: 10px;
+    width: 20%;
+           }
+
+        #claviernum div{
+            
+            cursor: default;
+            padding: 7px 20px;
+            font-size: 20px;
+            text-shadow: 0 -1px 1px #0000;
+            display: inline-block;
+            border-top: solid 2px #7777;
+            width: 20%;
+            background: linear-gradient(#5f5f5f 0%, #404040 100%);
+            margin: 3px;
+            border-radius: 6px;
+                    }
+
+                 #claviernum div:hover{
+                    background: linear-gradient(#79d144 0%, #50a61f 100%);
+                    border-top: solid 1 px #9add73;
+                    text-shadow: 0 -1px 1px #0000;
+                                }
+
+                #claviernum div:active{
+                    border-top: none;
+                                }
+
+
+/* BOUTON SHIFT ET ESPACE*/
+
+#shiftespace{
+    display: inline-flex;
+    float: left;
+    margin-left: 1%;
+            }
+
+#shiftespace div{
+    margin: 12px;}
+
+    #shift   {
+        cursor: default;
+        text-align: center;
+        padding: 1px 20px;
+        font-size: 20px;
+        text-shadow: 0 -1px 1px #0000;
+        border-top: solid 2px #7777;
+        width:100px;
+        height: 50px;
+        background: linear-gradient(#5f5f5f 0%, #404040 100%);
+        border-radius: 6px;
+        margin-bottom: 10px;
+        
+                }
+
+            #shift:hover{
+                background: linear-gradient(#79d144 0%, #50a61f 100%);
+                border-top: solid 1 px #9add73;
+                text-shadow: 0 -1px 1px #0000;
+                        }
+
+            #shift:active{
+                border-top: none;
+                        }
+
+    #espace   {
+        display: flex;
+        cursor: default;
+        text-align: center;
+        padding: 4px 20px;
+        font-size: 20px;
+        text-shadow: 0 -1px 1px #0000;
+        border-top: solid 2px #7777;
+        width:730px;
+        height: 50px;
+        background: linear-gradient(#5f5f5f 0%, #404040 100%);
+        border-radius: 6px;
+        margin-bottom: 10px;
+        margin-left: 150px;
+        margin-top: 5px;
+                    }
+
+            #espace:hover{
+                background: linear-gradient(#79d144 0%, #50a61f 100%);
+                border-top: solid 1 px #9add73;
+                text-shadow: 0 -1px 1px #0000;
+                        }
+
+            #espace:active{
+                border-top: none;
+                            }
+
+ /* BOUTON CENTRAUX*/
+
+#suprime{
+   
+   
+    display: inline-block;
+    position: absolute;
+    left: 62.5%;
+    
+    
+        }
+
+#suprime div {
+        cursor: default;
+        text-align: center;
+        padding: 2px 1px;
+        font-size: 20px;
+        text-shadow: 0 -1px 1px #0000;
+        border-top: solid 2px #7777;
+        width:200%;
+        height:50px;
+        background: linear-gradient(#5f5f5f 0%, #404040 100%);
+        border-radius: 6px;
+        margin-bottom: 5px;
+        margin: 10px;
+            }
+
+            #suprime div:hover{
+                background: linear-gradient(#79d144 0%, #50a61f 100%);
+                border-top: solid 1 px #9add73;
+                text-shadow: 0 -1px 1px #0000;
+                        }
+            #suprime div:active{
+                border-top: none;
+                        }
+
+   /* BOUTON envoyer*/
+   
+   #submit{
+      
+    position: absolute;
+    left: 59.8%;
+    cursor: default;
+    text-align: center;
+    padding: 2px 1px;
+    font-size: 20px;
+    text-shadow: 0 -1px 1px #0000;
+    border: solid 2px #5f5f5f; 
+    width:10.5%;
+    height: 50px;
+    background: linear-gradient(#5f5f5f 0%, #404040 100%);
+    border-radius: 6px;
+    margin-bottom: 5px;
+    margin: 15px;
+    margin-top: 25px;
+    top: 240%;
+    color: #212529;;
+        }
+
+        #submit:hover{
+            background: linear-gradient(#79d144 0%, #50a61f 100%);
+            border-top: solid 1 px #9add73;
+            text-shadow: 0 -1px 1px #0000;
+                    }
+        #submit:active{
+            border-top: none;
+                    }
+
+   
+
+@media screen and (max-width: 1800px) {
+    
+    #body div {
+        width: 6.5%;
+    }
+    #shift   {
+        text-shadow: 0 -1px 1px #0000;
+        border-top: solid 2px #7777;
+        width:90px;
+        height: 40px;
+                }
+    
+    #espace{
+        width:490px;
+        height: 40px;
+    }
+    #claviernum div{
+        font-size: 18px;
+                }
+
+    #suprime div {
+        width:150%;
+            }
+
+    .teaser_parfum{
+        font-family: "museo-sans-condensed",sans-serif;
+        text-transform: uppercase;
+        font-size: 2.2rem ;
+        color: white;
+    
+             
+               }
+            
+
+
+    }
+
+
+   
+
+

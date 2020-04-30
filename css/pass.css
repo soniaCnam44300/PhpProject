@@ -1,0 +1,9 @@
+#formulaire{
+    display: inline-block;
+    
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    display: inline-block;
+}

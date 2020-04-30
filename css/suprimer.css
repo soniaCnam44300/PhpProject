@@ -1,0 +1,47 @@
+#tableauDeChateaux{
+    display: block;
+}
+
+#row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 100px;
+}
+
+.barnav{
+    position: relative;
+   display: inline-block;
+   left: 50%; /* à 50%/50% du parent référent */
+   transform: translate( -50%); /* décalage de 50% de sa propre taille */
+   margin-top: 50px;
+
+}
+
+.modif{
+    display: inline-flex;
+}
+
+.suprimer{
+    margin-right: 50px;
+}
+
+
+#modif{
+    margin-left: 20px;
+}
+
+#modif a
+{
+color: white;
+text-decoration: none;
+}
+
+#sup a
+{
+color: white;
+text-decoration: none;
+}

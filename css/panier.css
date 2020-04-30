@@ -1,0 +1,150 @@
+
+.quantite{
+    width: 50%;
+}
+
+
+
+#sousTotal{
+    text-align: center;
+    margin-top:25px;
+}
+
+.number{
+    width: 50px;
+}
+
+#formulaire{
+    border-bottom-right-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    
+    border-top: none;
+    margin-block: inherit;
+    border-color: rgb(103, 241, 85);
+ 
+}
+
+#container{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#calculer{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%); 
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 0.5rem;
+    height: 40px;
+   
+}
+
+#entete{
+    display: inline-flex;
+}
+
+#titre{
+display: inline-flex;
+
+}
+
+.number{
+    text-align: center;
+    vertical-align: center ;
+    border-radius: 10px;
+    border-right: none;
+    border-top: none;
+    width: 100px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+#nom{
+
+ vertical-align: middle;
+ text-align: center;
+ font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ border-top-right-radius: 1.25rem;
+ border-top-left-radius: 1.25rem;
+ border-left: 1px solid rgb(103, 241, 85);
+ border-right: 1px solid rgb(103, 241, 85);
+
+ border-top: 1px solid rgb(103, 241, 85);
+
+}
+#panierTotal{
+    text-align: center;
+    position: absolute;
+    border: 1px solid black;
+    float: right;
+    top: 30%;
+    left: 65%;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    border-left: 1px solid rgb(103, 241, 85);
+    border-right: 1px solid rgb(103, 241, 85);
+    border-bottom: 1px solid rgb(103, 241, 85);
+    border-top: 1px solid rgb(103, 241, 85);
+}
+
+#pass{
+    display: block;
+    text-align: center;
+    position: absolute;
+    border: 1px solid black;
+    float: right;
+    top: 55%;
+    left: 65%;
+    border-top-right-radius: 1.25rem;
+    border-top-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    border-left: 1px solid rgb(103, 241, 85);
+    border-right: 1px solid rgb(103, 241, 85);
+    border-bottom: 1px solid rgb(103, 241, 85);
+    border-top: 1px solid rgb(103, 241, 85);
+    text-align: left;
+}
+.submit{
+    border: 1px solid rgb(103, 241, 85);
+    height: 50px;
+    width: 150px;
+    border-radius: 1.25rem;
+    translate: 200%;
+}
+
+.pass{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#pass48{
+    display: none;
+}
+
+#pass72{
+    display: none;
+}
+
+
+#nav{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#ToogleNantes{
+    border: none;
+    background-color: none;
+    height: 50px;
+    width: 150px;
+    
+}
